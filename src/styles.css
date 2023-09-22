@@ -162,11 +162,11 @@ h1 {
 }
 
 .banner {
-  position: fixed;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: fill-content;
   max-width: 600px;
   margin: 0 auto;
   padding: 32px;
@@ -176,11 +176,11 @@ h1 {
   will-change: transform;
 }
 
-.happy.banner {
+.won.banner {
   background: var(--color-success);
   color: white;
 }
-.sad.banner {
+.lost.banner {
   background: var(--color-error);
   color: white;
 }
